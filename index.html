@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Dev Gui</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header id="header">
+
+        <a class="header-title" href="/">
+            <h1>Luc.dev</h1>
+        </a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#person">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="person">
+        <div class="person-content">
+            <div class="person-name">
+                <h1>Olá, <span></span></h1>
+                <h1>Meu nome é <span></span></h1>
+                <h1>Guilherme Alves <span></span></h1>
+            </div>
+            <div class="stacks-content">
+                <h3>Techs :</h3>
+                <div class="stacks">
+                    <ul>
+                        <l1>
+                            <div data="HTML">
+                                <img src="./src/imagens/svg/html.svg" alt="Icone Html">
+                            </div>
+                        </l1>
+                    </ul>
+                    <ul>
+                        <l1>
+                            <div data="CSS">
+                                <img src="./src/imagens/svg/css.svg" alt="Icone Css">
+                            </div>
+                        </l1>
+                    </ul>
+                    <ul>
+                        <l1>
+                            <div data="JS">
+                                <img src="./src/imagens/svg/js.svg" alt="Icone JS">
+                            </div>
+                        </l1>
+                    </ul>
+                    <ul>
+                        <l1>
+                            <div data="REACT">
+                                <img src="./src/imagens/svg/react.svg" alt="Icone React">
+                            </div>
+                        </l1>
+                    </ul>
+                    <ul>
+                        <l1>
+                            <div data="NODE">
+                                <img src="./src/imagens/svg/node.svg" alt="Icone Node">
+                            </div>
+                        </l1>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="person-background">
+            <div class="wraper-profile-photo">
+                <img class="profile-photo" src="./src/imagens/DEVGUI-removebg-preview.png" alt="Imagem do Profile">
+            </div>
+
+            <div class="links">
+                <a href="https://github.com/GuiAlvesR" target="_blank">
+                    <img src="./src/imagens/svg/logo-github.svg" alt="Icone do GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/guilhermealvesrodriguesdev" target="_blank"> <img
+                        src="./src/imagens/svg/logo-linkedin.svg" alt="Icone do Linkedin">
+                </a>
+                <a href="https://www.instagram.com/guilhermealvesa17" target="_blank"><img
+                        src="./src/imagens/svg/logo-insta.svg" alt="Icone do Instagram">
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="background-about">
+            <div class="img-wrapper">
+                <img src="./src/imagens/img.2.jpg" alt="Nootbook">
+            </div>
+        </div>
+
+        <div class="box-about">
+            <div class="section-subtitle">
+                <h2>
+                    <p>💻</p>
+                    <p><span>Desenvolvedor</span> Full Stack</p>
+                </h2>
+            </div>
+
+            <h3>Sou um Desenvolvedor Full Stack com experiências em
+                <span>Front-End:</span>
+                <p>HTML, CSS, JavaScript, Reacj.js e Node.js</p> e
+                <span>Back-End:</span>
+                <p>Java, Spring, Mysql, MongoDB e C#</p>
+            </h3>
+
+            <h4>Meu nome é Guilherme Alves, tenho 18 anos. Além da minnha experiência</h4>
+
+            <h4>Abaixo está o meu <p>currículo</p> para dowload.</h4>
+
+            <div class="button-cta">
+                <a href="./public/document/" download="CV- Guilherme-Alves"
+                    aria-label="Baixar currículo Guilherme Alves">Currículo</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <div class="projects-title">
+            <h2>PROJETOS</h2>
+        </div>
+
+        <div class="container-projects">
+
+            <div class="swiper mySwiper">
+                <!-- wrapper-projects -->
+
+                <div class="swiper-wrapper">
+
+                    <!-- content-project -->
+                    <div class="swiper-slide card-project">
+                        <div class="image-project">
+                            <a href="/">
+                                <img src="./src/imagens/conversor.jpg" alt="img Conversor"></a>
+                        </div>
+
+                        <span>Conversor de Moedas</span>
+
+                        <p>Esse projeto estimula um conversor de moedas</p>
+
+                        <div class="cta-project">
+                            <a href="/">Codigo<i class="fa-brands fa-github"></i></a>
+                            <a href="/">Site<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-project">
+                        <div class="image-project">
+                            <a href="/">
+                                <img src="./src/imagens/conversor.jpg" alt="img Conversor"></a>
+                        </div>
+
+                        <span>Conversor de Moedas</span>
+
+                        <p>Esse projeto estimula um conversor de moedas</p>
+
+                        <div class="cta-project">
+                            <a href="/">Codigo<i class="fa-brands fa-github"></i></a>
+                            <a href="/">Site<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-project">
+                        <div class="image-project">
+                            <a href="/">
+                                <img src="./src/imagens/conversor.jpg" alt="img Conversor"></a>
+                        </div>
+
+                        <span>Conversor de Moedas</span>
+
+                        <p>Esse projeto estimula um conversor de moedas</p>
+
+                        <div class="cta-project">
+                            <a href="/">Codigo<i class="fa-brands fa-github"></i></a>
+                            <a href="/">Site<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-project">
+                        <div class="image-project">
+                            <a href="/">
+                                <img src="./src/imagens/conversor.jpg" alt="img Conversor"></a>
+                        </div>
+
+                        <span>Conversor de Moedas</span>
+
+                        <p>Esse projeto estimula um conversor de moedas</p>
+
+                        <div class="cta-project">
+                            <a href="/">Codigo<i class="fa-brands fa-github"></i></a>
+                            <a href="/">Site<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-project">
+                        <div class="image-project">
+                            <a href="/">
+                                <img src="./src/imagens/conversor.jpg" alt="img Conversor"></a>
+                        </div>
+
+                        <span>Conversor de Moedas</span>
+
+                        <p>Esse projeto estimula um conversor de moedas</p>
+
+                        <div class="cta-project">
+                            <a href="/">Codigo<i class="fa-brands fa-github"></i></a>
+                            <a href="/">Site<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card-project">
+                        <div class="image-project">
+                            <a href="/">
+                                <img src="./src/imagens/conversor.jpg" alt="img Conversor"></a>
+                        </div>
+
+                        <span>Conversor de Moedas</span>
+
+                        <p>Esse projeto estimula um conversor de moedas</p>
+
+                        <div class="cta-project">
+                            <a href="/">Codigo<i class="fa-brands fa-github"></i></a>
+                            <a href="/">Site<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contacts">
+        <div class="contact-icon-content">
+            <h2>
+                Contato 📞
+            </h2>
+        </div>
+
+        <div class="contact-icons-wrapper">
+            <div class="contact-icon-content">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div class="contact-info">
+                    <span>Localização</span>
+                    <p>Carnaíba-PE, Brasil</p>
+                </div>
+            </div>
+
+            <div class="contact-icon-content">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <div class="contact-info">
+                    <span>E-mail</span>
+                    <a href="mailto:guinegocios20@gmail.com">guinegocios20@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-icon-content">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <div class="contact-info">
+                    <span>Telefone</span>
+                    <a href="https://api.whatsapp.com/send/?phone=5587998124966&text&type=phone_number&app_absent=0&text=Entre+em+contato!+Desenvolvido+por+Developer+FullStack+Guilherme+Alves"
+                        target="_blank">(87) 99812-4966</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer id="footer">
+        <div class="container-footer">
+            <h2>Desenvolvido por Developer Web Gui @Copyright 2023</h2>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
